@@ -184,3 +184,18 @@ text-align:center;
 opacity:0;
 transition:1s;
 }
+@media (max-width:600px){
+
+.birthday-button{
+transform: scale(0.8);
+}
+
+.birthday-button__text{
+font-size:1.2rem;
+}
+
+.message{
+font-size:28px;
+bottom:120px;
+}
+
