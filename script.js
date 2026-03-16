@@ -254,3 +254,14 @@ const toggleAudio = () => {
 };
 
 document.querySelector('#volume').addEventListener('input', toggleAudio);
+
+BTN.addEventListener("click", function(){
+
+setTimeout(function(){
+const msg = document.querySelector(".message");
+if(msg){
+msg.style.opacity = "1";
+}
+},4000);
+
+});
