@@ -174,9 +174,9 @@ label svg:nth-of-type(1) {
 }
 .message{
 position:fixed;
-top:50%;
+bottom:80px;
 left:50%;
-transform:translate(-50%,-50%);
+transform:translateX(-50%);
 font-size:40px;
 font-weight:bold;
 color:#ff2e63;
